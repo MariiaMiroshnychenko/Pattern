@@ -1,7 +1,7 @@
 package gof.chain;
 
-public class LevelConstant {
-    public static final int ERROR = 1;
-    public static final int DEBUG = 2;
-    public static final int INFO = 3;
+public interface LevelConstant {
+    int ERROR = 1;
+    int DEBUG = 2;
+    int INFO = 3;
 }
