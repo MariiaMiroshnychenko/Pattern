@@ -1,11 +1,11 @@
-package gof.chain;
+package gof.chain.logger;
 
-import gof.chain.entity.EmailLogger;
-import gof.chain.entity.FileLogger;
-import gof.chain.entity.Logger;
-import gof.chain.entity.SMSLogger;
+import gof.chain.logger.entity.EmailLogger;
+import gof.chain.logger.entity.FileLogger;
+import gof.chain.logger.entity.Logger;
+import gof.chain.logger.entity.SMSLogger;
 
-public class ChainApp implements LevelConstant{
+public class ChainApp implements LevelConstant {
     public static void main(String[] args) {
         Logger smsLogger = new SMSLogger(ERROR);
         Logger fileLogger = new FileLogger(DEBUG);

@@ -1,4 +1,4 @@
-package gof.chain;
+package gof.chain.logger;
 
 public interface LevelConstant {
     int ERROR = 1;
