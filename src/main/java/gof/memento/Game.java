@@ -20,9 +20,8 @@ public class Game {
 
     @Override
     public String toString() {
-        return "Game{" +
-                "level='" + level + '\'' +
-                ", ms=" + ms +
-                '}';
+        return "Game\n" +
+                level +
+                ", ms = " + ms;
     }
 }
