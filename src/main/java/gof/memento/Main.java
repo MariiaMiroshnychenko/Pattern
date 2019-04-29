@@ -1,5 +1,8 @@
 package gof.memento;
 
+import gof.memento.caretaker.File;
+import gof.memento.originator.Game;
+
 public class Main {
     public static void main(String[] args) {
         Game game = new Game();

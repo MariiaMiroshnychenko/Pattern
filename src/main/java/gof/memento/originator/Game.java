@@ -1,4 +1,6 @@
-package gof.memento;
+package gof.memento.originator;
+
+import gof.memento.memento.Save;
 
 public class Game {
     private String level;

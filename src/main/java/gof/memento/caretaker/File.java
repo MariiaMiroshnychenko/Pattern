@@ -1,4 +1,6 @@
-package gof.memento;
+package gof.memento.caretaker;
+
+import gof.memento.memento.Save;
 
 public class File {
     private Save save;

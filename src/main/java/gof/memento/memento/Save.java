@@ -1,4 +1,4 @@
-package gof.memento;
+package gof.memento.memento;
 
 public class Save {
     private final String level;
