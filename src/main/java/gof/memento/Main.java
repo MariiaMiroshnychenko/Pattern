@@ -1,6 +1,6 @@
 package gof.memento;
 
-public class MementoGame {
+public class Main {
     public static void main(String[] args) {
 
     }
