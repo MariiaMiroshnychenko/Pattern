@@ -1,6 +1,7 @@
 package gof.interpreter;
 
 import gof.interpreter.context.Context;
+import gof.interpreter.entity.Expression;
 
 public class InterpreterApp {
     public static void main(String[] args) {

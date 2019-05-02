@@ -1,6 +1,6 @@
 package gof.interpreter.non.terminal;
 
-import gof.interpreter.Expression;
+import gof.interpreter.entity.Expression;
 
 public class MinusExpression implements Expression {
     Expression left;

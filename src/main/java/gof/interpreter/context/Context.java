@@ -1,6 +1,6 @@
 package gof.interpreter.context;
 
-import gof.interpreter.Expression;
+import gof.interpreter.entity.Expression;
 import gof.interpreter.non.terminal.MinusExpression;
 import gof.interpreter.non.terminal.NumberExpression;
 import gof.interpreter.non.terminal.PlusExpression;
