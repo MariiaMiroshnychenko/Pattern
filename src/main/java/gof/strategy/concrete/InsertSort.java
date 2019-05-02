@@ -19,7 +19,7 @@ public class InsertSort implements ArraySorting {
                 index--;
             }
         }
-        
+
         System.out.println("After: " + Arrays.toString(array));
     }
 }
