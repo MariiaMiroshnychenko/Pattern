@@ -1,10 +1,9 @@
-package gof.factory.method.watch;
+package gof.factory.method;
 
-import gof.factory.method.watch.entity.DigitalWatch;
 import gof.factory.method.watch.entity.Watch;
 import gof.factory.method.watch.maker.DigitalWatchMaker;
-import gof.factory.method.watch.maker.RomanWatchMaker;
 import gof.factory.method.watch.maker.WatchMaker;
+import gof.factory.method.watch.maker.RomanWatchMaker;
 
 public class FactoryMethodApp {
     public static void main(String[] args) {
